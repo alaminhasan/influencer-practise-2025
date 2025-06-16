@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    font-size: 16px;
+}
+*{
+    margin: 0;padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+/* Shared Styles here*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    border: none;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.radius-none{
+    border-radius: 0px;
+}
+.bottom-margin{
+    margin-bottom: 100px;
+}
+.title-text{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.para-text{
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+/*Header part start here*/
+/*Header part start here*/
+/*Header part start here*/
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.menubar h2{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+.menubar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+.menubar ul li{
+
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.hero-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+
+/*Header part start here*/
+/*Header part start here*/
+/*Header part start here*/
+.brand-container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Popular Collection part start here*/
+/*Popular Collection part start here*/
+/*Popular Collection part start here*/
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+.card h2{
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.card p{
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+}
+.card .price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.reveiw-icon-container{
+    display: flex;
+    gap: 5px;
+}
+.reveiw-icon-container i{
+    color: rgb(251, 130, 0);
+}
+.see-more{
+    margin: 50px 0px;
+}
+.see-more a{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: center;
+    margin: 100px 0px;
+}
+/*feature product start here*/
+/*feature product start here*/
+/*feature product start here*/
+.feature-product-container{
+    display: flex;
+    gap: 50px;
+}
+.feature-right-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+/* footer start here*/
+/* footer start here*/
+/* footer start here*/
+footer{
+    background-color: rgb(10, 8, 38);
+}
+.footer-container{
+    font-display: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
