@@ -13,6 +13,9 @@ html{
     max-width: 1140px;
     margin: 0 auto;
 }
+.d-none{
+    display: none;
+}
 .btn{
     color: rgb(255, 255, 255);
     font-family: Poppins;
@@ -72,6 +75,8 @@ html{
     list-style-type: none;
     display: flex;
     gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 .menubar ul li{
 
@@ -200,8 +205,59 @@ footer{
 .icon-container i{
     margin-left: 10px;
     border-radius: 50%;
-    background-color: rgb(221, 16, 16);
-    width: 32px;
-    height: 32px;
-    
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box; 
 }
+
+/*Responsive Design*/
+
+@media  screen and (max-width: 576px) {
+                .menubar{
+                    align-items: center;
+                }
+                 .menubar ul{
+                    display: none;
+                 }
+                 .mobile-active{
+                    display: block;
+                 }
+                 .hero-container{
+                    flex-direction: column-reverse;
+                 }
+                 .brand-container{
+                    flex-wrap: wrap;
+                    gap: 10%;
+                    margin-bottom: 50px;
+                 }
+                 .hero-left-text-container{
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    
+                 }
+                 .card-container{
+                    grid-template-columns: repeat(1, 1fr);
+                 }
+                 .feature-product-container{
+                    flex-direction: column-reverse;
+                 }
+                 .feature-right-text{
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                 }
+                 img{
+                    max-width: 100%;
+                 }
+                 section, header, footer{
+                    padding: 0px 2.5%;
+                 }
+                 .title-text{
+                    line-height: 100%;
+                 }
+}
+
